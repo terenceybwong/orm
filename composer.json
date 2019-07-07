@@ -1,0 +1,10 @@
+{
+  "require": {
+    "gabordemooij/redbean": "^5.3",
+    "doctrine/orm": "^2.6",
+    "symfony/yaml": "^4.3"
+  },
+  "autoload": {
+    "psr-0": {"Shop":  "./src"}
+  }
+}
