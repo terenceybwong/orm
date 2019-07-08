@@ -3,10 +3,10 @@
 ## Prepare database
 
 ```bash
-echo 'CREATE USER readbean IDENTIFIED BY "redbean"' | mysql
-echo 'CREATE DATABASE readbean' | mysql
-echo 'GRANT ALL ON redbean.* to `redbean`@`%`' | mysql
-echo 'FLUSH PRIVILEGES' | mysql
+echo 'CREATE USER redbean IDENTIFIED BY "redbean"' | mysql -u root
+echo 'CREATE DATABASE redbean' | mysql -u root
+echo 'GRANT ALL ON redbean.* to redbean' | mysql -u root
+echo 'FLUSH PRIVILEGES' | mysql -u root
 ```
 
 ## Installation
